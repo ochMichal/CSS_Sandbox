@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Css celectors</title>
+  
+  <!-- Internal CSS -->
+  <style>
+    
+    /* Element selector */
+    body{
+      background-color: #333;
+    }
+
+    /* . is for classes */
+    .primary-heading {
+      color: green;
+    }
+
+    /* # is for id's */
+    #welcome {
+      background-color: aqua;
+    }
+
+    #about{
+      background-color: antiquewhite;
+    }
+
+    /* Multiple selector */
+    #welcome, #about{
+      border: 1px, solid,grey;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+
+    /* Nested selector */
+    #about p{
+      color: blue;
+      font-size: 20px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div id="welcome">
+    <h2 class="primary-heading">Welcome</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates recusandae esse totam sapiente doloremque tenetur natus explicabo quos eveniet praesentium.</p>
+  </div>
+  <div id="about">
+    <h2>About</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam soluta, illo enim sint incidunt obcaecati a laboriosam aliquam corrupti recusandae?</p>
+  </div>
+</body>
+</html>

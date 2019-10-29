@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vh & Vw Units</title>
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      padding:0;
+      margin: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background: #333 url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center;
+      background-size: cover;
+      color: #f4f4f4;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+      padding-top: 15rem;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      margin: 1.5rem 0;
+    }
+
+    .btn {
+      text-decoration: none;
+      background: #f4f4f4;
+      color: #333;
+      padding:0.75rem 2rem;
+    }
+
+    section {
+      padding: 1.52rem;
+      background: #cac4c4;
+    }
+
+    section h3 {
+      font-size: 1.5rem;
+      margin-top: 0.1rem;
+      margin-bottom: 1rem;
+    }
+
+    @media(max-height: 450px) {
+      header {
+        padding-top: 5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Website</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea inventore explicabo provident doloremque possimus culpa expedita veritatis? Voluptate officiis quia sit laborum et? Soluta eaque consequatur culpa nobis animi sed!</p>   
+    <a href="#" class="btn">Find out more</a> 
+  </header>
+
+  <section>
+    <h3>About Our Company</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a facilis voluptates sint consequatur commodi quidem id, soluta explicabo dignissimos sed possimus, optio molestias ea dolore enim? Culpa id iste voluptatibus magni ratione expedita suscipit temporibus eveniet quam officiis. Aut, adipisci repellat! Amet, pariatur repudiandae.</p>
+  </section>
+</body>
+</html>
